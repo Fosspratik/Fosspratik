@@ -1,0 +1,7 @@
+import re
+a = "the beast is here"
+x=re.search("^the.*beast is here$" ,a)
+if x:
+    print("its there ")
+else:
+    print("no match")
